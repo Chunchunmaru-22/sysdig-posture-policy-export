@@ -1,0 +1,4 @@
+output.txt
+token*.txt
+*.csv
+__pycache__/
