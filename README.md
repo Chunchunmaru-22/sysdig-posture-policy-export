@@ -85,6 +85,8 @@ Filter the column to non-empty to see only those rows.
 
 **Empty policies.** A requirement with no controls doesn't get a row. A policy with no controls at all still gets one row, so every policy appears in the file.
 
+**Two of the APIs are not public.** The script uses two Sysdig APIs that are not currently supported public APIs, so there is no guarantee they will stay the same. If those APIs change, the script can stop working.
+
 ## If something goes wrong
 
 | Message | What to do |
